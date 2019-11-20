@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+main {
+	height: 90vh;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.navbar, .container, .row {
+	padding: 0 !important;
+}
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+}
+#left-bar-container{
+	background-color: #CDDEDB;
+	padding: 0;
+	height: 94vh;
+}
+
+#content-container {
+	padding: 0;
+	height: 94vh;
+	overflow: auto;
+}
+
+#right-bar-container {
+	background-color: #D9F6F1;
+	padding: 0;
+	height: 94vh;
+	overflow: auto;
+}
+
